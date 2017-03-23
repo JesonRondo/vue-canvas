@@ -1,0 +1,34 @@
+{
+  "name": "vue-canvas",
+  "version": "0.1.0",
+  "description": "Vue Canvas render",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack --config ./build/webpack.example.js --watch & serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesonRondo/vue-canvas.git"
+  },
+  "keywords": [
+    "Vue",
+    "Canvas"
+  ],
+  "author": "LongZhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JesonRondo/vue-canvas/issues"
+  },
+  "homepage": "https://github.com/JesonRondo/vue-canvas#readme",
+  "dependencies": {
+    "vue": "^2.2.4"
+  },
+  "devDependencies": {
+    "serve": "^5.0.4",
+    "vue-loader": "^11.2.0",
+    "vue-template-compiler": "^2.2.4",
+    "webpack": "^2.3.0",
+    "yoga-layout": "^1.2.0"
+  }
+}
