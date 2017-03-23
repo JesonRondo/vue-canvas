@@ -24,7 +24,7 @@ export default Vue.component('vc-view', {
       }
     }
 
-    return h('div')
+    return h('view', this.$slots.default)
   },
   created () {
     this._tagName = 'view'
