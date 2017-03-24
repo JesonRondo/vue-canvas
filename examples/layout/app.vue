@@ -14,8 +14,8 @@
   export default {
     data () {
       return {
-        width: window.screen.width,
-        height: window.screen.height
+        width: window.VC_FRAME.width,
+        height: window.VC_FRAME.height
       }
     },
     components: {

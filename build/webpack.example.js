@@ -6,7 +6,14 @@ const examples = [{
   dist: 'dist'
 }]
 
-const configs = []
+const configs = [{
+  entry: path.resolve('./src', 'vue-cornerstone.js'),
+  output: {
+    filename: 'vue-cornerstone.js',
+    path: path.resolve('./dist')
+  }
+}]
+
 examples.forEach(example => {
   configs.push({
     entry: path.resolve(example.path, example.entry),
